@@ -400,7 +400,7 @@ footer p {
         font-size: 32px;
     }
     .destino1 h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     .destino{
         max-width: 300px;
@@ -489,6 +489,9 @@ footer p {
     }
     .destino1 h3 {
         font-size: 16px;
+    }
+    .destino1 h2{
+        font-size: 25px;
     }
     .destinos {
         gap: 24px;
