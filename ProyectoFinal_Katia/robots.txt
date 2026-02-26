@@ -1,4 +1,0 @@
-User-agente: *
-Disallow:
-
-Sitemap: https://vueltaalmundoenhtml.com/sitemap.xml
