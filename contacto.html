@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilo1.css">
+</head>
+<body>
+    <header>
+        <nav class="menu_principal">
+            <div class="logo">
+                <h1>La vuelta al mundo en HTML</h1>
+            </div>
+            <ul class="lista">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="menu">
+                    <a href="#">Europa</a>
+                    <ul class="menu_despegable">
+                        <li><a href="paris.html">París</a></li>
+                        <li><a href="roma.html">Roma</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">Asia</a>
+                    <ul class="menu_despegable">
+                        <li><a href="tokio.html">Tokio</a></li>
+                        <li><a href="bangkok.html">Bangkok</a></li>
+                        <li><a href="dubai.html">Dubai</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">América</a>
+                    <ul class="menu_despegable">
+                        <li><a href="nuevaYork.html">Nueva York</a></li>
+                        <li><a href="rio.html">Río de Janeiro</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">África</a>
+                    <ul class="menu_despegable">
+                        <li><a href="egipto.html">Egipto</a></li>
+                    </ul>
+                </li>
+                <li class="menu">
+                    <a href="#">Oceania</a>
+                    <ul class="menu_despegable">
+                        <li><a href="australia.html">Australia</a></li>
+                    </ul>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contenido-contacto">
+            <h2>Formulario de Contacto</h2>
+            <p>Si tienes alguna pregunta o comentario, no dudes en contactarnos. Completa el siguiente formulario y te
+                responderemos lo antes posible.</p>
+            <form class="formulario-contacto" action="#" method="post">
+                <div class="form-grupo">
+                    <label for="nombre"><strong>Nombre</strong></label>
+                    <input type="nombre" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="email"><strong>Correo eletrónico:</strong></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="destino"><strong>Destino de interés:</strong></label>
+                    <select id="destino" name="destino">
+                        <option value="">Selecciona un destino</option>
+                        <option value="paris">París</option>
+                        <option value="roma">Roma</option>
+                        <option value="tokio">Tokio</option>
+                        <option value="bangkok">Bangkok</option>
+                        <option value="nueva-york">Nueva York</option>
+                        <option value="rio">Río de Janeiro</option>
+                        <option value="egipto">Egipto</option>
+                        <option value="australia">Australia</option>
+                        <option value="dubai">Dubai</option>
+                    </select>
+                </div>
+                <div class="form-grupo">
+                    <label><strong>¿Qué tipo de información buscas?</strong></label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="info[]" value="alojamiento"> Alojamiento</label>
+                        <label><input type="checkbox" name="info[]" value="transporte"> Transporte</label>
+                        <label><input type="checkbox" name="info[]" value="actividades"> Actividades turísticas</label>
+                    </div>
+                </div>
+                <div class="form-grupo">
+                    <label><strong>¿Cuándo planeas viajar?</strong></label>
+                    <div class="radio-grupo">
+                        <label><input type="radio" name="cuando" value="proximo-mes"> Próximo mes</label>
+                        <label><input type="radio" name="cuando" value="proximo-trimestre"> Próximo trimestre</label>
+                        <label><input type="radio" name="cuando" value="proximo-año"> Próximo año</label>
+                    </div>
+                </div>
+                <div class="form-grupo">
+                    <label for="mensaje"><strong>Mensaje:</strong></label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <div class="form-buttons">
+                    <button type="submit" class="btn-submit">Enviar</button>
+                    <button type="reset" class="btn-reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 La vuelta al mundo en HTML - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
